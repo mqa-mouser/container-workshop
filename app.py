@@ -10,6 +10,10 @@ def hello():
 def raude():
     return "Hi boss!"
 
+@app.route("/winston")
+def winston():
+    return "YOU ARE AMAZING!"
+
 
 if __name__ == "__main__":
     app.run(debug=True,host='0.0.0.0')
