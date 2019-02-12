@@ -1,0 +1,6 @@
+# The basics to ignore
+Dockerfile
+.dockerignore
+
+# We don't need the readme
+README.md
