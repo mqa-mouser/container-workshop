@@ -1,6 +1,8 @@
 # The basics to ignore
 Dockerfile
 .dockerignore
+.git
+docker-compose.yml
 
 # We don't need the readme
 README.md
